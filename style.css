@@ -1,0 +1,410 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+
+}
+body{
+    -webkit-tap-highlight-color: transparent;
+}
+
+/*Header part of the website*/
+
+header {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: rgb(217, 28, 66);
+    overflow: hidden;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mainheader {
+
+    height: 100%;
+    padding-top: 1cm;
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
+.headersection {
+    
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Logo {
+    font-size: 25px;
+    font-family:cursive;
+}
+
+.navbar {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.hamburger{
+    display:none;
+}
+.hamburger:hover{
+    color:rgb(71, 71, 71);
+    transition:0.5s;
+}
+.sidebar{
+    display:none;
+}
+.navbar a:hover{
+    color:rgb(71, 71, 71);
+    transition:0.5s;
+}
+
+.headercontent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.headercontent1 {
+    z-index: 1;
+    margin-top: 2.5cm;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3vw;
+
+}
+
+.apple {
+
+    display: inline-block;
+    width: 3cm;
+    height: 1cm;
+    border: 2px solid black;
+    background-color: rgb(47, 47, 47);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+
+}
+.apple:hover{
+    border-color: white;
+    background-color: transparent;
+    transition: 0.5s;
+
+}
+
+.playstore {
+    display: inline-block;
+    width: 3cm;
+    height: 1cm;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    font-size: small;
+    text-align: center;
+
+}
+.playstore:hover{
+    border-color: black;
+    background-color:rgb(47, 47, 47); 
+    transition: 0.5s;
+}
+
+.fa-apple {
+    margin-right: 3px;
+    font-size: 17px;
+}
+
+.fa-google-play {
+    margin-right: 5px;
+}
+
+
+.iphoneimg img {
+    width: 9cm;
+    height: 18cm;
+    margin-right: 3cm;
+    position: relative;
+    transform: rotate(30deg);
+    top: 1.5cm;
+
+
+}
+
+/* main part of website*/
+
+main {
+    width: 100%;
+    height: 290vh;
+    background-color: rgb(0, 0, 0);
+
+}
+
+/* 1st Part of main content*/
+.maincontent1 {
+    padding-left: 3cm;
+    padding-right: 3cm;
+    height: 60vh;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+.fa-circle-check,
+.fa-bullseye,
+.fa-heart {
+    font-size: 70px;
+    color: rgb(243, 152, 103);
+    margin-bottom: 0.8cm;
+}
+
+.maincontent1 p,
+.maincontent1 h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Second part of main content*/
+.maincontent2 {
+
+    padding-top: 2cm;
+    padding-bottom: 1cm;
+    height: 70vh;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    background-color: rgb(243, 152, 103);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.review img {
+    width: 3cm;
+    height: 3cm;
+    border: 2px solid grey;
+    border-radius: 100%;
+}
+
+.scroll {
+    scroll-margin-block-end: 10px;
+    overflow-x: scroll;
+    display: flex;
+    gap: 2cm;
+
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+.scroll {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.review {
+    margin-top: 1cm;
+    padding-bottom: 20px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.personalreview {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-width: 25cm;
+    font-size: 10px;
+    border: 3px solid rgb(91, 91, 91);
+    border-radius: 5px;
+    background: rgb(229, 14, 39);
+    background: linear-gradient(90deg, rgb(251, 22, 102) 7%, rgb(249, 68, 89) 73%);
+}
+
+.personalreview h1 {
+    margin-top: 10px;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2cm;
+}
+
+.tnw {
+    width: 6.5cm;
+    height: 3cm;
+}
+
+/* main content 3*/
+
+.maincontent3 {
+    padding-left: 3cm;
+    padding-right: 3cm;
+    height: 90vh;
+    padding-top: 3cm;
+    background-color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 1cm;
+}
+
+.priceboxes {
+    margin-top: 2cm;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.box {
+    height: 10cm;
+    width: 9cm;
+    border: 2px solid rgb(195, 195, 195);
+    border-radius: 6px;
+
+}
+
+.box h3 {
+    margin-top: 0.6cm;
+
+}
+
+.box h2 {
+    height: 1.3cm;
+    font-size: larger;
+    border-bottom: 2px solid rgb(177, 174, 174);
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+    background-color: rgb(239, 234, 234);
+}
+
+.box button {
+    width: 2cm;
+    height: 1cm;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 1cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box button:hover{
+    
+    color: white;
+    background-color:rgb(217, 28, 66) ;
+    transition: 0.5s;
+}
+
+.box p {
+    margin-top: 1cm;
+}
+
+.labradorbtn {
+    background-color: rgb(37, 37, 37);
+    color: white;
+
+}
+.labradorbtn:hover{
+    background-color: rgb(217, 28, 66);
+    transition: 0.5s;
+}
+
+.mastiffbtn {
+    background-color: rgb(42, 41, 41);
+    color: white;
+}
+.mastiffbtn:hover{
+    background-color: rgb(217, 28, 66);
+    transition: 0.5s;
+    
+}
+
+
+/*main content 4*/
+
+.maincontent4 {
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding-top: 1.5cm;
+    height: 40vh;
+    background-color: rgb(217, 28, 66);
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.maincontent4 {
+    color: white;
+    overflow: hidden;
+}
+
+.lastbtn {
+    display: flex;
+    margin-top: 1cm;
+    justify-content: center;
+    gap: 0.7cm;
+}
+
+/*footer content*/
+footer {
+    height: 40vh;
+    background-color: rgb(255, 255, 255);
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+.social{
+    display:flex;
+    justify-content: center;
+    height:4cm;
+    align-items: center;
+    gap:1cm;
+
+}
+.fa-x-twitter,.fa-facebook-f,.fa-instagram,.fa-envelope{
+    font-size: 25px;
+
+}
+.fa-facebook-f{
+    color:rgb(29, 117, 199);
+}
+.fa-instagram{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,46,29,1) 49%, rgba(252,176,69,1) 100%); 
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.fa-envelope{
+    color:grey;
+}
+.heart{
+    font-size:10px;
+    color:red;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1cm;
+}
+.fa-brands:hover{
+    transform:scale(1.1,1.1);
+}
+.envelope:hover{
+    transform:scale(1.1,1.1);
+}
