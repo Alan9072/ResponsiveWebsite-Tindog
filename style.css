@@ -49,6 +49,7 @@ header a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    transition:1s;
 
 }
 .navbar a::after{
